@@ -1,0 +1,52 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+src/main/resources/static/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/src/main/generated/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/bin/
+/node_modules/
+/frontend/node_modules/
+/frontend/build/*
+/frontend/dist/*
+/frontend/bundle_stats.json
+/frontend/stats_visualizer.html
+#/frontend/package-lock.json
+/frontend/newrelic_agent.log
+
+### Visual Studio Code ###
+.vscode
+
+### eslint ###
+.eslintcache
+
+### Webpack ###
+stats.json
+/frontend/*.lock
+
+!/src/
+!/src/**/*
+
+!.gitignore

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pin-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pin-app
+  template:
+    metadata:
+      labels:
+        app: pin-app
+    spec:
+      containers:
+        - name: pin-app
+          image: gcr.io/pinapp-demo/pinapp-image:latest
+          ports:
+            - containerPort: 8080
+
+      
