@@ -95,8 +95,8 @@ Look for API Documentation by [following this link](http://34.133.117.46/swagger
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPOSITORY_NAME].git
-   cd [YOUR_REPOSITORY_NAME]
+   git clone https://github.com/ghoyos95/PinApp.git
+   cd PinApp
 
 2. Run on terminal
     ```sh
